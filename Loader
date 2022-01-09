@@ -1,18 +1,13 @@
-if game.PlaceId == 11970456 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/HoleInTheWall"), true))()
-else
-game.StarterGui:SetCore('SendNotification', {
-            Title = "Game not supported!",
-            Text = "NSH Doesnt support this game. Join discord and request support for this game.",
-            Duration = 1.53
-        })
-end
-elseif game.PlaceId == 3915426994 then
+if game.PlaceId == 3915426994 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/UntitledDoorGame"), true))()
+elseif game.PlaceId == 11970456 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/HoleInTheWall"), true))()
+elseif game.PlaceId == 621129760 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/KAT"), true))()
 else
-game.StarterGui:SetCore('SendNotification', {
+    game.StarterGui:SetCore('SendNotification', {
             Title = "Game not supported!",
             Text = "NSH Doesnt support this game. Join discord and request support for this game.",
             Duration = 1.53
         })
-end
+end 
