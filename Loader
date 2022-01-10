@@ -1,9 +1,27 @@
 if game.PlaceId == 3915426994 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/UntitledDoorGame"), true))()
+ game.StarterGui:SetCore('SendNotification', {
+            Title = "Loaded [Untitled door game]",
+            Text = "NSH Has loaded For: Untitled door game",
+            SoundId = 4676573052,
+            Duration = 1.53
+        })
 elseif game.PlaceId == 11970456 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/HoleInTheWall"), true))()
+ game.StarterGui:SetCore('SendNotification', {
+            Title = "Loaded [HoleInTheWall]",
+            Text = "NSH Has loaded for: Hole in the wall",
+            SoundId = 4676573052,
+            Duration = 1.53
+        })
 elseif game.PlaceId == 621129760 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/KAT"), true))()
+ game.StarterGui:SetCore('SendNotification', {
+            Title = "Loaded [KAT]",
+            Text = "NSH haas loaded for: KAT",
+            SoundId = 4676573052,
+            Duration = 1.53
+        })
 else
     game.StarterGui:SetCore('SendNotification', {
             Title = "Game not supported!",
