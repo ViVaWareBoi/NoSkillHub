@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillH
             SoundId = 4676573052,
             Duration = 1.53
         })
-elseif game.PlaceId == 621129760 then
+elseif game.PlaceId == 7429434108 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/AnimeTappers"), true))()
  game.StarterGui:SetCore('SendNotification', {
             Title = "Loaded [Anime Tappers]",
