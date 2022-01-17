@@ -6,8 +6,8 @@ Using Moonsec, Our scripts are the safest yet!
 discord.gg/moonsec
 
 games:
-Anime Tappers
-Prison Life
-Untitled Door Game
-Hole in the wall
+Anime Tappers,
+Prison Life,
+Untitled Door Game,
+Hole in the wall,
 KAT
