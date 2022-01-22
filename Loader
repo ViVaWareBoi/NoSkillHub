@@ -14,6 +14,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillH
             SoundId = 4676573052,
             Duration = 1.53
         })
+        elseif game.PlaceId == 3102144307 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/AnimeClickers"), true))()
+ game.StarterGui:SetCore('SendNotification', {
+            Title = "Loaded [Anime Clickers]",
+            Text = "NSH Has loaded for: Anime clickers Simulator",
+            SoundId = 4676573052,
+            Duration = 1.53
+        })
 elseif game.PlaceId == 621129760 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/KAT"), true))()
  game.StarterGui:SetCore('SendNotification', {
