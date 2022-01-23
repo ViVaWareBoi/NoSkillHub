@@ -30,6 +30,22 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillH
             SoundId = 4676573052,
             Duration = 1.53
         })
+        elseif game.PlaceId == 155615604 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/PrisonLife"), true))()
+ game.StarterGui:SetCore('SendNotification', {
+            Title = "Loaded [Prison Life]",
+            Text = "NSH haas loaded for: Prison Life | Credits to C̶͊̚e̴̮͛ŕ̷̇ö̸̑#0542 For Scripting Prison Life script",
+            SoundId = 4676573052,
+            Duration = 1.53
+        })
+                elseif game.PlaceId == 3956818381 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/PrisonLife"), true))()
+ game.StarterGui:SetCore('SendNotification', {
+            Title = "Loaded [Ninja Legends]",
+            Text = "NSH haas loaded for: Ninja Legends | Credits to C̶͊̚e̴̮͛ŕ̷̇ö̸̑#0542 For Scripting Ninja legends script",
+            SoundId = 4676573052,
+            Duration = 1.53
+        })
         elseif game.PlaceId == 6284583030 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/PetSimX"), true))()
  game.StarterGui:SetCore('SendNotification', {
