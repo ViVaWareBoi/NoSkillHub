@@ -39,7 +39,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillH
             Duration = 1.53
         })
                 elseif game.PlaceId == 3956818381 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/PrisonLife"), true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/NinjaLegends"), true))()
  game.StarterGui:SetCore('SendNotification', {
             Title = "Loaded [Ninja Legends]",
             Text = "NSH haas loaded for: Ninja Legends | Credits to C̶͊̚e̴̮͛ŕ̷̇ö̸̑#0542 For Scripting Ninja legends script",
