@@ -64,7 +64,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillH
             Duration = 1.53
         })
         
-        elseif game.PlaceId == 3956818381 then
+        elseif game.PlaceId == 3652625463 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/LiftingBalls"), true))()
  game.StarterGui:SetCore('SendNotification', {
             Title = "Loaded [Lifting Balls]",
