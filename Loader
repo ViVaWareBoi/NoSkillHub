@@ -63,6 +63,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillH
             SoundId = 4676573052,
             Duration = 1.53
         })
+        
+        elseif game.PlaceId == 3956818381 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/LiftingBalls"), true))()
+ game.StarterGui:SetCore('SendNotification', {
+            Title = "Loaded [Lifting Balls]",
+            Text = "NSH haas loaded for: Lifting Balls | Credits to C̶͊̚e̴̮͛ŕ̷̇ö̸̑#0542 For Helping with script",
+            SoundId = 4676573052,
+            Duration = 1.53
+        })
 
 else
     game.StarterGui:SetCore('SendNotification', {
