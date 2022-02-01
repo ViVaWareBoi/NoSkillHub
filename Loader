@@ -72,6 +72,16 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillH
             SoundId = 4676573052,
             Duration = 1.53
         })
+        
+                elseif game.PlaceId == 2986677229 then
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/giantsim"), true))()
+ game.StarterGui:SetCore('SendNotification', {
+            Title = "Loaded [Giant Sim]",
+            Text = "NSH haas loaded for: Giant Sim",
+            SoundId = 4676573052,
+            Duration = 1.53
+        })
+
 
 else
     game.StarterGui:SetCore('SendNotification', {
