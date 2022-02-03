@@ -1,92 +1,10 @@
-if game.PlaceId == 3915426994 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/UntitledDoorGame"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [Untitled door game]",
-            Text = "NSH Has loaded For: Untitled door game",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-elseif game.PlaceId == 11970456 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/HoleInTheWall"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [HoleInTheWall]",
-            Text = "NSH Has loaded for: Hole in the wall",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-        elseif game.PlaceId == 3102144307 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/AnimeClickers"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [Anime Clickers]",
-            Text = "NSH Has loaded for: Anime clickers Simulator",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-elseif game.PlaceId == 621129760 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/KAT"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [KAT]",
-            Text = "NSH haas loaded for: KAT",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-        elseif game.PlaceId == 6284583030 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/PetSimX"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [PSX]",
-            Text = "NSH haas loaded for: PSX",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-        
-        elseif game.PlaceId == 7429434108 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/AnimeTappers"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [Anime Tappers]",
-            Text = "NSH haas loaded for: Anime Tappers",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-                elseif game.PlaceId == 155615604 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/PrisonLife"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [Prison Life]",
-            Text = "NSH haas loaded for: Prison Life | Credits to C̶͊̚e̴̮͛ŕ̷̇ö̸̑#0542 For Scripting Prison Life script",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-                elseif game.PlaceId == 3956818381 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/NinjaLegends"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [Ninja Legends]",
-            Text = "NSH haas loaded for: Ninja Legends | Credits to C̶͊̚e̴̮͛ŕ̷̇ö̸̑#0542 For Scripting Ninja legends script",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-        
-        elseif game.PlaceId == 3652625463 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/LiftingBalls"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [Lifting Balls]",
-            Text = "NSH haas loaded for: Lifting Balls | Credits to C̶͊̚e̴̮͛ŕ̷̇ö̸̑#0542 For Helping with script",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
-        
-                elseif game.PlaceId == 2986677229 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/ViVaWareBoi/NoSkillHub/main/giantsim"), true))()
- game.StarterGui:SetCore('SendNotification', {
-            Title = "Loaded [Giant Sim]",
-            Text = "NSH haas loaded for: Giant Sim",
-            SoundId = 4676573052,
-            Duration = 1.53
-        })
+local CoreGui = game:GetService("StarterGui")
 
-
-else
-    game.StarterGui:SetCore('SendNotification', {
-            Title = "Game not supported!",
-            Text = "NSH Doesnt support this game. Join discord and request support for this game.",
-            Duration = 1.53
-        })
-end 
+CoreGui:SetCore("SendNotification", {
+	Title = "NSH | IMFO";
+	Text = "MSH is dow n for maintenance";
+	Duration = 5;
+	--Callback here
+	Button1 = "oks";
+	Button2 = "ok";
+})
